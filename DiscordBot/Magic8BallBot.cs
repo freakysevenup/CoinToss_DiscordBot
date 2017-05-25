@@ -28,34 +28,73 @@ namespace DiscordBot
 
             // Commands
             commands.CreateCommand("help")
-                .Parameter("user", ParameterType.Unparsed)
                 .Do(async (e) =>
                 {
                     string message = "";
                     message += "Commands:\n";
                     message += "'-' is the prefix character.\n";
                     message += "Type '-=' To Flip the coin\n";
+                    message += "Type '-= <n>' To Flip the coin 'n' times\n";
                     message += "Type '-heads' To Guess that Heads will be flipped.\n";
                     message += "Type '-tails' To Guess that Tails will be flipped.\n";
                     await (e.Channel.SendMessage(message));
                 });
 
             commands.CreateCommand("=")
-                .Parameter("user", ParameterType.Unparsed)
+                .Parameter("i", ParameterType.Optional)
                 .Do(async (e) =>
                 {
-                    if (getResponse(getRand()).Equals("Heads"))
+                    int numberOfFlips = 0;
+                    int heads = 0;
+                    int tails = 0;
+                    string message = "";
+                    if (!(e.GetArg("i").Equals("")))
                     {
-                        await (e.Channel.SendMessage(e.User.Name + " flipped Heads"));
+                        numberOfFlips = Convert.ToInt32(e.GetArg("i"));
+                    }
+
+                    if ((e.GetArg("i").Equals("")))
+                    {
+                        if (getResponse(getRand()).Equals("Heads"))
+                        {
+                            await (e.Channel.SendMessage(e.User.Name + " flipped Heads"));
+                        }
+                        else
+                        {
+                            await (e.Channel.SendMessage(e.User.Name + " flipped Tails"));
+                        }
                     }
                     else
                     {
-                        await (e.Channel.SendMessage(e.User.Name + " flipped Tails"));
+                        if (numberOfFlips < 1001)
+                        {
+                            for (int i = numberOfFlips; i > 0; i--)
+                            {
+                                if (flippedHeads(getResponse(getRand())))
+                                {
+                                    heads++;
+                                }
+                                else
+                                {
+                                    tails++;
+                                }
+                            }
+
+                            message += e.User.Name + "\n";
+                            message += "You flipped : \n";
+                            message += "Heads " + heads + " times.\n";
+                            message += "Tails " + tails + " times.\n";
+
+                            await (e.Channel.SendMessage(message));
+                        }
+                        else {
+                            await (e.Channel.SendMessage("Please choose a number between 1 and 1000"));
+                        }
                     }
+
                 });
 
             commands.CreateCommand("heads")
-                .Parameter("user", ParameterType.Unparsed)
                 .Do(async (e) =>
                 {
                     if (getResponse(getRand()).Equals("Heads"))
@@ -110,6 +149,15 @@ namespace DiscordBot
                 default:
                     return "Something went horribly wrong... please re-check the code";
             }
+        }
+
+        private bool flippedHeads(string value)
+        {
+            if (value.Equals("Heads"))
+            {
+                return true;
+            }
+            return false;
         }
     }
 }
