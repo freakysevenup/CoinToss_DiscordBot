@@ -84,3 +84,22 @@ C:\Users\15360\Desktop\CoinFlipBot\CoinToss_DiscordBot\DiscordBot\bin\Debug\norm
 C:\Users\15360\Desktop\CoinFlipBot\CoinToss_DiscordBot\DiscordBot\bin\Debug\normnfkd.nlp
 C:\Users\15360\Desktop\CoinFlipBot\CoinToss_DiscordBot\DiscordBot\obj\Debug\DiscordBot.exe
 C:\Users\15360\Desktop\CoinFlipBot\CoinToss_DiscordBot\DiscordBot\obj\Debug\DiscordBot.pdb
+C:\Users\Jesse Derochie\__Discord_Bots\CoinTossBot\CoinToss_DiscordBot\DiscordBot\bin\Debug\DiscordBot.exe.config
+C:\Users\Jesse Derochie\__Discord_Bots\CoinTossBot\CoinToss_DiscordBot\DiscordBot\bin\Debug\DiscordBot.exe
+C:\Users\Jesse Derochie\__Discord_Bots\CoinTossBot\CoinToss_DiscordBot\DiscordBot\bin\Debug\DiscordBot.pdb
+C:\Users\Jesse Derochie\__Discord_Bots\CoinTossBot\CoinToss_DiscordBot\DiscordBot\bin\Debug\Discord.Net.Commands.dll
+C:\Users\Jesse Derochie\__Discord_Bots\CoinTossBot\CoinToss_DiscordBot\DiscordBot\bin\Debug\Discord.Net.dll
+C:\Users\Jesse Derochie\__Discord_Bots\CoinTossBot\CoinToss_DiscordBot\DiscordBot\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Jesse Derochie\__Discord_Bots\CoinTossBot\CoinToss_DiscordBot\DiscordBot\bin\Debug\Nito.AsyncEx.Concurrent.dll
+C:\Users\Jesse Derochie\__Discord_Bots\CoinTossBot\CoinToss_DiscordBot\DiscordBot\bin\Debug\Nito.AsyncEx.dll
+C:\Users\Jesse Derochie\__Discord_Bots\CoinTossBot\CoinToss_DiscordBot\DiscordBot\bin\Debug\Nito.AsyncEx.Enlightenment.dll
+C:\Users\Jesse Derochie\__Discord_Bots\CoinTossBot\CoinToss_DiscordBot\DiscordBot\bin\Debug\RestSharp.dll
+C:\Users\Jesse Derochie\__Discord_Bots\CoinTossBot\CoinToss_DiscordBot\DiscordBot\bin\Debug\WebSocket4Net.dll
+C:\Users\Jesse Derochie\__Discord_Bots\CoinTossBot\CoinToss_DiscordBot\DiscordBot\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Jesse Derochie\__Discord_Bots\CoinTossBot\CoinToss_DiscordBot\DiscordBot\bin\Debug\Nito.AsyncEx.xml
+C:\Users\Jesse Derochie\__Discord_Bots\CoinTossBot\CoinToss_DiscordBot\DiscordBot\bin\Debug\Nito.AsyncEx.Concurrent.xml
+C:\Users\Jesse Derochie\__Discord_Bots\CoinTossBot\CoinToss_DiscordBot\DiscordBot\bin\Debug\Nito.AsyncEx.Enlightenment.xml
+C:\Users\Jesse Derochie\__Discord_Bots\CoinTossBot\CoinToss_DiscordBot\DiscordBot\bin\Debug\RestSharp.xml
+C:\Users\Jesse Derochie\__Discord_Bots\CoinTossBot\CoinToss_DiscordBot\DiscordBot\obj\Debug\DiscordBot.csprojResolveAssemblyReference.cache
+C:\Users\Jesse Derochie\__Discord_Bots\CoinTossBot\CoinToss_DiscordBot\DiscordBot\obj\Debug\DiscordBot.exe
+C:\Users\Jesse Derochie\__Discord_Bots\CoinTossBot\CoinToss_DiscordBot\DiscordBot\obj\Debug\DiscordBot.pdb

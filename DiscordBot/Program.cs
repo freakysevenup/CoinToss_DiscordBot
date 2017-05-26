@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DiscordBot
+namespace CoinToss
 {
     class Program
     {
         static void Main(string[] args)
         {
-            CoinToss bot = new DiscordBot.CoinToss();
+            CoinToss bot = new CoinToss();
         }
     }
 }
